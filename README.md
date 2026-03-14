@@ -75,7 +75,7 @@
     <li><b>Web Pentest:</b> Advanced SQLi techniques and OWASP Top 10 research.</li>
     <li><b>Environment:</b> Maintaining a rolling-release pentest environment on Arch.</li>
     <li><b>Automation:</b> Developing custom tools to speed up manual analysis.</li>
-    <li><b>Geek Code Translation:</b> GCS/MU (CS major/Math major), d+ (monitor resolution >1400x900), Python$ PHP$ (know for money), ULC++ (Unix/Linux lover), etc.</li>
+    <li><b>Geek Code Translation:</b> GCS/MU (CS major/Math major), d+ (monitor resolution >1400x900), ULC++ (Unix/Linux lover), etc.</li>
   </ul>
 </details>
 
