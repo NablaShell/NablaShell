@@ -11,9 +11,9 @@
 <div style="font-family: 'Courier New', monospace; background: #1a1b1e; padding: 15px; border-radius: 8px; border-left: 4px solid #A74DFF;">
   <div>-----BEGIN GEEK CODE BLOCK-----</div>
   <div>Version: 3.1</div>
-  <div>GCS/MU d+ s: a Python$ PHP$ ULC++ P- L++</div>
-  <div>E++ W-- N+ o+ K+++ w++ O- M+ V- PS+ PE- Y+</div>
-  <div>PGP+ t- 5- X- R- tv- b- DI+ D+ G++ e- h++ r- y++</div>
+  <div>GCS/MU d+ s: a Python++ PHP+ ULC++ P- L++</div>
+  <div>E++ W: N+ o+ w++ O+ M+ V- PS+ PE- Y- PGP+ </div>
+  <div>t- 5- X- R-- tv- b+ DI+ D- G++ e- h++ r- y-</div>
   <div>------END GEEK CODE BLOCK------</div>
 </div>
 
