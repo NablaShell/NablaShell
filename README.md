@@ -1,17 +1,21 @@
 <div align="center">
   <h1>Hi there, I'm NablaShell! <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDIzZDIzZDYzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dw60YIVoqHglL2nxnO/giphy.gif" width="30"></h1>
   <p><b>Security Researcher | Arch Linux Enthusiast | Web Developer</b></p>
-  <p><i>Formerly CerberusSolution — rebranding to a new era of security research</i></p>
+  <p><i>Formerly CerberusSolution - rebranding to a new era of security research</i></p>
   
   <p>Self-taught hacker driven by curiosity. Breaking things to understand how to build them better.</p>
 </div>
 
 ---
 
------BEGIN GEEK CODE BLOCK-----
-Version: 3.1
-GCS/MU d+ s: a Python$ PHP$ ULC++ P- L++ E++ W-- N+ o+ K+++ w++ O- M+ V- PS+ PE- Y+ PGP+ t- 5- X- R- tv- b- DI+ D+ G++ e- h++ r- y++
-------END GEEK CODE BLOCK------
+<div style="font-family: 'Courier New', monospace; background: #1a1b1e; padding: 15px; border-radius: 8px; border-left: 4px solid #A74DFF;">
+  <div>-----BEGIN GEEK CODE BLOCK-----</div>
+  <div>Version: 3.1</div>
+  <div>GCS/MU d+ s: a Python$ PHP$ ULC++ P- L++</div>
+  <div>E++ W-- N+ o+ K+++ w++ O- M+ V- PS+ PE- Y+</div>
+  <div>PGP+ t- 5- X- R- tv- b- DI+ D+ G++ e- h++ r- y++</div>
+  <div>------END GEEK CODE BLOCK------</div>
+</div>
 
 ---
 
@@ -90,25 +94,50 @@ GCS/MU d+ s: a Python$ PHP$ ULC++ P- L++ E++ W-- N+ o+ K+++ w++ O- M+ V- PS+ PE-
 </p>
 
 ---
+### 🛡️ System Clean-up (NablaShell Special Edition)
+bash
 
-### 🛡️ System Clean-up (Modern Edition)
-<p align="left">
-  <code># Trying the old ways...</code><br>
-  <code>$ rm -rf / </code> <br>
-  <code><span style="color: #ffb86c;">[WARNING]: it is dangerous to operate recursively on '/'</span></code><br>
-  <br>
-  <code># The specialist way:</code><br>
-  <code>$ rm -rf / --no-preserve-root <span style="color: #50fa7b;"># Now we're talking.</span></code>
-  <br><br>
-  <code># The NablaShell way:</code><br>
-  <code>$ :(){ :|:& };:</code>
-  <code><span style="color: #ff5555;">[SYSTEM]: Fork bomb deployed. No / was harmed in the making of this meme.</span></code>
-</p>
+#### Amateurs:
+$ sudo rm -rf /
 
-> "Because 2009 methods don't work on 2024 kernels. But Geek Code is forever."
+<span style="color: #ffb86c;">[WARNING]: Amateur hour. Data can still be recovered.</span>
+bash
+
+#### Professionals:
+$ sudo dd if=/dev/zero of=/dev/sda
+
+<span style="color: #ffb86c;">[WARNING]: Better, but still recoverable with electron microscopes.</span>
+bash
+
+#### Real hackers:
+$ for i in $(ls /dev/sd[a-z]{1,}*); do 
+    dd if=/dev/urandom of=$i bs=1M status=progress
+  done
+
+<span style="color: #50fa7b;">[SYSTEM]: All traces obliterated. Even the ghosts are gone.</span>
+<span style="color: #ff5555;">[FINAL]: This machine is now a very expensive paperweight.</span>
+bash
+
+#### Turbo mode for NVMe (parallel execution):
+$ for i in $(ls /dev/nvme[0-9]n[0-9]*); do
+    (dd if=/dev/urandom of=$i bs=1M &)
+  done 
+
+<span style="color: #ff5555;">[SYSTEM]: Death was too slow. We brought friends.</span>
+bash
+
+# Post-execution system message:
+$ echo "GG"
+
+<span style="color: #50fa7b;">bash: fork: Cannot allocate memory</span>
+<span style="color: #ffb86c;">[SYSTEM]: ... wait, why is there still output? WHO AM I?</span>
+
+    "I don't always test my scripts, but when I do, I do it in production." - Every sysadmin ever
+
+<div align="center"> <sub>⚡ No systems were harmed in the making of this README. Probably. ⚡</sub> </div>
 
 ---
 
 <div align="center">
-  <sub>⚡ Geek Code Version 3.1 • Updated for NablaShell • 2024 ⚡</sub>
+  <sub>⚡ Geek Code Version 3.1 • Updated for NablaShell • 2026 ⚡</sub>
 </div>
