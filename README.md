@@ -1,7 +1,6 @@
 <div align="center">
   <h1>Hi there, I'm NablaShell! <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDIzZDIzZDYzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZTMzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dw60YIVoqHglL2nxnO/giphy.gif" width="30"></h1>
   <p><b>Security Researcher | Arch Linux Enthusiast | Web Developer</b></p>
-  <p><i>Formerly CerberusSolution - rebranding to a new era of security research</i></p>
   
   <p>Self-taught hacker driven by curiosity. Breaking things to understand how to build them better.</p>
 </div>
