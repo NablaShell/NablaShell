@@ -18,7 +18,7 @@ jobs:
           # Базовые настройки
           token: ${{ secrets.METRICS_TOKEN }}
           user: nablashell
-          template: classic
+          template: terminal
           base: header, activity, community, repositories, metadata
           
           # Настройки внешнего вида
