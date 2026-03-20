@@ -19,7 +19,7 @@
 ---
 
 
-### 🛡️ Cyber Profile
+###  Cyber Profile
 
 * **OS:** Arch Linux (with **BlackArch** repositories) 🐧
 * **Main Focus:** Web Penetration Testing & SQL Injection (Successfully identified & exploited 2 real-world SQLi vulnerabilities).
@@ -28,22 +28,20 @@
 
 ---
 
-### 📊 HTB Stats at the time of Rooting
-* **Global Rank:** `#901` 🌍 (Top 1000 Achievement)
-* **Flags Captured:** `11` 🚩
-* **Points:** `12` 🏆
-* **Progress:** `10.25%` 
+###  HTB Stats at the time of Rooting
+![HTB Badge](https://www.hackthebox.eu/badge/image/2861065)
+
+
 
 ---
 
-### 📊 Метрики активности
+###  Metrics of activity
 
-<!-- Метрики генерируются автоматически через GitHub Actions -->
 ![NablaShell's GitHub Metrics](https://raw.githubusercontent.com/nablashell/nablashell/main/github-metrics.svg)
 
 ---
 
-### 💻 Toolbox & Gear
+###  Toolbox & Gear
 
 <p align="left">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
@@ -60,7 +58,7 @@
 
 ---
 
-### 📂 Operational Log: Self-Taught Path
+###  Operational Log: Self-Taught Path
 
 <p align="left">
   <code>[SYSTEM] Booting learning modules...</code><br>
@@ -69,7 +67,7 @@
 </p>
 
 <details open>
-  <summary><b>🛠 Skills Acquired via Trial & Error</b></summary>
+  <summary><b> Skills Acquired via Trial & Error</b></summary>
   <br>
   <ul>
     <li><b>Web Pentest:</b> Advanced SQLi techniques and OWASP Top 10 research.</li>
@@ -83,8 +81,8 @@
 
 ---
 
-### 📫 Let's Connect 
-<!--* **HackTheBox:** [NablaShell](https://app.hackthebox.com/users/your_id_here)--> <!-- Обнови ID -->
+###  Let's Connect 
+* **HackTheBox:** [NablaShell](https://profile.hackthebox.com/profile/019c7ad9-c43e-72e2-a230-8b46a69d2e4d)
 * **GitHub:** [@nablashell](https://github.com/nablashell)
 * **Email:** nabla.shell@proton.me
 
@@ -93,7 +91,7 @@
 </p>
 
 ---
-### 🛡️ System Clean-up (NablaShell Special Edition)
+###  System Clean-up (NablaShell Special Edition)
 bash
 
 #### Amateurs:
