@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Схема: обновлять каждые 24 часа
   schedule: [{cron: "0 0 * * *"}]
-  # Возможность запуска вручную
   workflow_dispatch:
-  # Запускать при пуше в main
   push: {branches: ["main"]}
 jobs:
   github-metrics:
@@ -12,61 +9,45 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: 📊 Генерация метрик
+      - name: Metrics of activity
         uses: lowlighter/metrics@latest
         with:
-          # Базовые настройки
           token: ${{ secrets.METRICS_TOKEN }}
           user: nablashell
-          template: terminal
+          template: terminal            # Оставляем этот шаблон, он лучший для тебя
           base: header, activity, community, repositories, metadata
           
-          # Настройки внешнего вида
           config_timezone: Europe/Moscow
           config_display: large
           config_order: base.header, languages, habits, notable, activity, achievements
           
-          # Цветовая схема (твой фиолетовый #A74DFF)
           config_twemoji: yes
-          theme: dark
           
-          # Плагин: Языки программирования
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell
+          plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell
           
-          # Плагин: Привычки (время коммитов и т.д.)
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           
-          # Плагин: Заметные проекты
           plugin_notable: yes
           plugin_notable_types: commit, pull_request, issue
           
-          # Плагин: Активность
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_visibility: all
           plugin_activity_timestamps: yes
           
-          # Плагин: Достижения
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
           plugin_achievements_display: detailed
           plugin_achievements_limit: 0
           
-          # Плагин: Музыка (опционально, если слушаешь в Spotify)
-          # plugin_music: yes
-          # plugin_music_provider: spotify
-          # plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          # plugin_music_mode: recent
-          
-          # Плагин: Репозитории по звездам
           plugin_stars: yes
           plugin_stars_limit: 4
