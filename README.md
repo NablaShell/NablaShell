@@ -2,6 +2,7 @@
   <h1>NablaShell</h1>
   <p><b>Application Security & Penetration Testing</b></p>
   <p>Arch Linux • BlackArch • Web App Security</p>
+  ![HTB Badge](https://www.hackthebox.eu/badge/image/2861065)
 </div>
 
 ---
